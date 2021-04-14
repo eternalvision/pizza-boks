@@ -1,0 +1,40 @@
+.header-nav {
+    padding: 30px 0 29px 0;
+}
+.list-products {
+    display: flex;
+}
+.list-products li:not(:last-child) {
+    margin-right: 16px;
+}
+.list-products li a {
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21.28px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 150ms;
+}
+.list-products li a:hover {
+    background-color: #fecb24;
+}
+
+.list-products li:last-child {
+    display: block;
+    margin-left: 32%;
+}
+
+.list-products li:last-child a {
+    background-color: #fecb24;
+    padding: 10px 16px;
+    border-radius: 4px;
+    filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
+}
+
+.list-products li:last-child span {
+    margin: 10px 0 13px 8px;
+    color: #1a1a1a;
+}

@@ -1,0 +1,11 @@
+@import './utilits/_normalize';
+@import './utilits/utilits';
+
+@import './components/header';
+@import './components/header--nav';
+
+@import './components/slider';
+
+body {
+    background-color: #f3f3f3;
+}
