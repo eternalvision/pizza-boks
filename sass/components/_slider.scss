@@ -1,22 +1,22 @@
 .container {
-    padding: 0 50px;
     margin: auto;
     padding-top: 1em;
-    width: 800px;
 }
+
 .container .ism-slider {
     margin-left: auto;
     margin-right: auto;
 }
 
-.ism-slider > ol,
-.ism-slider > ol > li,
-.ism-slider > ol > li > img {
+.ism-slider>ol,
+.ism-slider>ol>li,
+.ism-slider>ol>li>img {
     width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .ism-slider {
     overflow: hidden;
     position: relative;
@@ -28,12 +28,12 @@
     user-select: none;
     cursor: default;
     z-index: 2;
-
     -webkit-animation: ism-fadein 3s;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
 }
+
 @-webkit-keyframes ism-fadein {
     from {
         opacity: 0;
@@ -42,6 +42,7 @@
         opacity: 1;
     }
 }
+
 @-webkit-keyframes ism-loading {
     50% {
         left: 120px;
@@ -264,6 +265,7 @@ p.ism-badge a.ism-link:hover {
         transform: scale(3);
     }
 }
+
 @keyframes zoomin {
     0% {
         -webkit-transform: scale(1);
@@ -283,6 +285,7 @@ p.ism-badge a.ism-link:hover {
         opacity: 1;
     }
 }
+
 @keyframes fadein {
     0% {
         opacity: 0;
@@ -302,6 +305,7 @@ p.ism-badge a.ism-link:hover {
         transform: translate(0, 0);
     }
 }
+
 @keyframes slidein {
     0% {
         -webkit-transform: translate(-1200px, 0);
@@ -319,6 +323,7 @@ p.ism-badge a.ism-link:hover {
         transform: scale(1.2);
     }
 }
+
 @keyframes popin {
     50% {
         -webkit-transform: scale(1.2);
@@ -330,6 +335,7 @@ p.ism-badge a.ism-link:hover {
     -webkit-animation: zoompan 20s linear 1;
     animation: zoompan 20s linear 1;
 }
+
 @-webkit-keyframes zoompan {
     0% {
         -webkit-transform: translate(0, 0) scale(1);
@@ -344,6 +350,7 @@ p.ism-badge a.ism-link:hover {
         transform: translate(0, 0) scale(1);
     }
 }
+
 @keyframes zoompan {
     0% {
         -webkit-transform: translate(0, 0) scale(1);
@@ -363,6 +370,7 @@ p.ism-badge a.ism-link:hover {
     -webkit-animation: zoomrotate 20s linear 1;
     animation: zoomrotate 20s linear 1;
 }
+
 @-webkit-keyframes zoomrotate {
     0% {
         -webkit-transform: rotate(0) scale(1);
@@ -377,6 +385,7 @@ p.ism-badge a.ism-link:hover {
         transform: rotate(0) scale(1);
     }
 }
+
 @keyframes zoomrotate {
     0% {
         -webkit-transform: rotate(0) scale(1);
@@ -391,6 +400,8 @@ p.ism-badge a.ism-link:hover {
         transform: rotate(0) scale(1);
     }
 }
+
+
 /* SLIDER */
 
 #my-slider {
@@ -419,9 +430,8 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-button {
     display: block;
-
-    width: 32px;
-    height: 32px;
+    width: 80px;
+    height: 80px;
     background-size: 16px 16px;
     top: 50%;
     margin-top: -16px;
@@ -434,13 +444,13 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-button-prev {
     background-image: url('../img/arrow.png');
     transform: rotate(180deg);
-    background-size: 60px;
+    background-size: 100px;
     left: 10px;
 }
 
 #my-slider .ism-button-next {
     background-image: url('../img/arrow.png');
-    background-size: 60px;
+    background-size: 100px;
     right: 10px;
 }
 
@@ -486,6 +496,7 @@ p.ism-badge a.ism-link:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+
 /* SLIDES */
 
 #my-slider .ism-slide-0 .ism-img-frame {
@@ -498,26 +509,21 @@ p.ism-badge a.ism-link:hover {
     background-position: center;
     display: block;
     left: 15%;
+    object-fit: cover;
     // -webkit-transform: translateY(-50%);
     // -moz-transform: translateY(-50%);
     // -ms-transform: translateY(-50%);
     // transform: translateY(-50%);
-    object-fit: cover;
 }
 
-#my-slider .ism-slide-1 .ism-img-frame {
-    width: 100%;
-}
-
+// #my-slider .ism-slide-1 .ism-img-frame {
+//     width: 100%;
+// }
 #my-slider .ism-slide-1 .ism-img {
     height: 100%;
     background-position: center;
     display: block;
     left: 15%;
-    // -webkit-transform: translateY(-50%);
-    // -moz-transform: translateY(-50%);
-    // -ms-transform: translateY(-50%);
-    // transform: translateY(-50%);
     object-fit: cover;
 }
 
@@ -536,6 +542,7 @@ p.ism-badge a.ism-link:hover {
     // transform: translateY(-50%);
     object-fit: cover;
 }
+
 
 /* CAPTIONS */
 
