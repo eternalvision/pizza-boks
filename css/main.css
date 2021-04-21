@@ -627,7 +627,7 @@ a.ism-caption:hover {
   position: relative;
   display: inline-block;
   margin: 0 3px;
-  padding: 0;
+  padding: 10px 0 0 0;
 }
 
 .ism-radios input.ism-radio {
