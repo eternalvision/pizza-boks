@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="links-head" href="">
+                        <a data-modal-open class="links-head" href="#">
                             <img src="./img/contacts-png/persona.png" alt="persona-ico" />
                             <h4>Войти</h4>
                         </a>
@@ -711,6 +711,44 @@
     </div>
     <!-- FOOTER -->
     <div class="container-footer"></div>
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <!-- Закрыть -->
+            <button class="button-modal" data-modal-close>
+                    <svg width="18" height="18">
+                        <use href="./img/ico/close.svg#close"></use>
+                    </svg>
+                </button>
+            <!-- Форма -->
+
+            <h2 class="form-title">Вход в кабинет</h2>
+            <form name="mailing-form" class="js-speaker-form" autocomplete="on" novalidate>
+                <ul class="form-mailing">
+                    <li class="form-input">
+                        <label class="backdrop-label" for="tel">
+                                Телефон/Почта
+                            </label>
+                        <input class="about-me-back" type="tel" name="tel" id="tel" />
+                        <img class="contact-icon" src="./img/contacts-png/persona.png" alt="" />
+                    </li>
+                    <li class="form-input">
+                        <label class="backdrop-label" for="mail">
+                                Пароль
+                            </label>
+                        <input class="about-me-back" type="email" name="mail" id="mail" />
+                        <img class="contact-icon" src="./img/contacts-png/tel.png" alt="tel" />
+                    </li>
+                </ul>
+
+                <button class="backdrop-button" type="submit">Войти</button>
+                <button class="backdrop-button" type="submit">
+                        Восстановить доступ
+                    </button>
+            </form>
+        </div>
+    </div>
+    <!--  -->
     <script src="./js/ism-2.2.min.js"></script>
     <script src="./js/modal.js"></script>
     <!--  -->
