@@ -1,15 +1,30 @@
 .header-nav {
-    padding: 30px 0 29px 0;
+    padding: 18px 0 18px 0;
+    // padding-bottom: 16px;
+}
+
+.sticky {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    backdrop-filter: blur(24px);
+    padding-left: 305px;
 }
 
 .list-products {
     display: flex;
+    //
+    li {
+        line-height: 50px;
+        text-align: center;
+    }
     //
     li:not(:last-child) {
         margin-right: 16px;
     }
     //
     li a {
+        vertical-align: middle;
         color: #1a1a1a;
         font-weight: bold;
         font-size: 16px;
@@ -27,11 +42,11 @@
     //
     li:last-child {
         display: block;
-        margin-left: 32%;
+        margin-left: 30.5%;
     }
     //
     li:last-child span {
-        margin: 10px 0 13px 8px;
+        margin: 5px 0 5px 8px;
         color: #1a1a1a;
     }
     //
@@ -46,6 +61,6 @@
     display: flex;
     //
     img {
-        margin: 12px 8px 18px 14px;
+        margin: 7px 0 0 12px;
     }
 }

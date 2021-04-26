@@ -46,25 +46,28 @@
                     </li>
                 </ul>
             </div>
-            <div class="header-nav">
-                <nav>
-                    <ul class="list-products">
-                        <li><a href="#"> РОЛЛЫ </a></li>
-                        <li><a href="#"> СЕТЫ </a></li>
-                        <li><a href="#">СУШИ </a></li>
-                        <li><a href="#"> Дополнительно </a></li>
-                        <li><a href="#"> Акции </a></li>
-                        <li><a href="#"> Контакты </a></li>
-                        <li>
-                            <a class="shop-link" href="#">
-                                <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
-                                <span> 200 ₽ </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </header>
+    </div>
+    <!-- STICKY -->
+    <div class="sticky">
+        <div class="header-nav">
+            <nav>
+                <ul class="list-products">
+                    <li><a href="#"> РОЛЛЫ </a></li>
+                    <li><a href="#"> СЕТЫ </a></li>
+                    <li><a href="#">СУШИ </a></li>
+                    <li><a href="#"> Дополнительно </a></li>
+                    <li><a href="#"> Акции </a></li>
+                    <li><a href="#"> Контакты </a></li>
+                    <li>
+                        <a class="shop-link" href="#">
+                            <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
+                            <span> 200 ₽ </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
     <!-- HERO -->
     <div class="hero-container">
@@ -233,7 +236,7 @@
                                         <!--  -->
                                         <label class="switch">
                                             <input type="checkbox" />
-                                            <span class="slider"
+                                            <span id="label" class="slider"
                                                 >5 шт<span>10 шт</span></span
                                             >
                                         </label>
@@ -241,7 +244,9 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h3 id="button" class="card-pojects">
+                                    200₽
+                                </h3>
                             </div>
                         </a>
                     </li>
@@ -707,6 +712,7 @@
     <!-- FOOTER -->
     <div class="container-footer"></div>
     <script src="./js/ism-2.2.min.js"></script>
+    <script src="./js/modal.js"></script>
     <!--  -->
     <!--  -->
     <!-- Корзина -->
