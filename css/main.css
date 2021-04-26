@@ -1654,4 +1654,10 @@ body {
 img {
   display: block;
 }
+
+.bug-title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25%;
+}
 /*# sourceMappingURL=main.css.map */
