@@ -4,6 +4,15 @@
 @import './components/header--nav';
 @import './components/slider';
 @import './components/filter';
+@import './components/card-sushi';
 body {
     background-color: #f3f3f3;
+}
+
+* {
+    font-family: Segoe UI, sans-serif;
+}
+
+img {
+    display: block;
 }

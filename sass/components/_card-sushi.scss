@@ -1,0 +1,218 @@
+/* MAIN */
+
+.card {
+    padding-bottom: 93px;
+}
+
+.card-many {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.card-info {
+    border-radius: 16px;
+    width: 261px;
+    height: 371px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.08));
+    box-sizing: border-box;
+    // transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card {
+    // transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fish-new {
+    span {
+        padding: 8px;
+        font-size: 22px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 16px;
+        color: #fff;
+        display: inline-block;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 5px;
+    }
+    span:first-child {
+        background-color: #ff5e00;
+        margin: 17px 8px 0 20px;
+    }
+    span:last-child {
+        background-color: #5f25e0;
+    }
+}
+
+.portfolio-card:hover .ingridients-block {
+    transform: translateY(-100%);
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-block {
+    margin: 0 auto;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.techno-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.28px;
+    color: #a3a3a3;
+    // display: block;
+    // position: absolute;
+    // transform: translateY(51%);
+    // transition: transform 250ms getColor('cubic-main');
+    span {
+        color: #121212;
+    }
+}
+
+.techno-text,
+.card-pojects,
+.sale {
+    margin-left: 16px;
+}
+
+.card-info__title {}
+
+.card-pojects {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    color: #1a1a1a;
+    padding-top: 8px;
+    display: inline-flex;
+}
+
+.sale {
+    text-decoration: line-through;
+    margin-top: 16px;
+    color: #a3a3a3;
+}
+
+.card-info__about {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    color: #a3a3a3;
+}
+
+.ingridients-block {
+    max-height: 82px;
+    transform: translateY(5%);
+    transition: transform 250ms;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(24px);
+}
+
+.vegatariants {
+    background: #f3f3f3;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    margin-left: 40px;
+    padding: 2px 5px;
+}
+
+.card-info:not(:last-child) {
+    margin-right: 30px;
+}
+
+//
+//
+//
+// SWITCH
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 229px;
+    height: 33px;
+    background-color: #f3f3f3;
+    -webkit-transition: 0.4s;
+    transition: 250ms;
+    margin: 10px 16px;
+    //
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #1a1a1a;
+    text-align: center;
+    span {
+        margin-left: 37px;
+    }
+}
+
+.slider:before {
+    position: absolute;
+    border-radius: 4px;
+    content: '5 шт';
+    height: 26px;
+    width: 112px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: 0.4s;
+    transition: 250ms;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    content: '10 шт';
+}
+
+.classic-title {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+    color: #1a1a1a;
+    padding-bottom: 42px;
+}
+
+.firstly {
+    padding-top: 48px;
+}
+
+.secondary {
+    padding-top: 104px;
+}
