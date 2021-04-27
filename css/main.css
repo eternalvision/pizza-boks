@@ -380,6 +380,7 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 8px;
 }
 
 .list-head__links h4 {
@@ -388,6 +389,18 @@ summary {
   font-weight: 400;
   color: #1a1a1a;
   margin-left: 8px;
+}
+
+.links-head {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.links-head:hover {
+  background-color: #fecb24;
+  -webkit-filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
+          filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
+  border-radius: 4px;
 }
 
 .header-nav {
@@ -409,7 +422,7 @@ summary {
 }
 
 .filtres {
-  background: rgba(170, 170, 170, 0.6);
+  background-color: #b9b9b9a6;
   border-radius: 4px;
   padding: 4px 8px;
   -webkit-transition: 150ms;
@@ -1528,8 +1541,8 @@ input:checked + .slider:before {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  -webkit-transition: background-color 250ms;
-  transition: background-color 250ms;
+  -webkit-transition: 250ms;
+  transition: 250ms;
 }
 
 .button-modal:hover,
@@ -1545,7 +1558,7 @@ input:checked + .slider:before {
   text-align: center;
   font-size: 19px;
   font-weight: bold;
-  color: #1a1a1a;
+  color: #dadada;
 }
 
 .form-mailing {
@@ -1576,7 +1589,7 @@ textarea:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  color: #000000;
+  color: #dadada;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: getColor("rare-color");
@@ -1651,7 +1664,7 @@ textarea:focus {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  color: getColor("whitey-color");
+  color: #1a1a1a;
   -webkit-transition: 250ms;
   transition: 250ms;
 }
