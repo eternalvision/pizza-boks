@@ -1,8 +1,8 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /* ===== ДОПОЛНЕНИЯ от Sandra Hrevtsova ===== */
 /* обнуляем дефолтные маркеры у всех маркированных списков */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 ul {
   list-style: none;
   margin: 0;
@@ -429,6 +429,11 @@ summary {
 .list-products li {
   line-height: 50px;
   text-align: center;
+  padding-right: 5px;
+}
+
+.list-products li:first-child {
+  white-space: nowrap;
 }
 
 .list-products li a {
@@ -556,7 +561,6 @@ summary {
 .ism-slider .ism-img-frame {
   display: block;
   position: absolute;
-  width: 100%;
   height: 100%;
 }
 
@@ -948,7 +952,7 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider .ism-radios {
   display: block;
-  height: 20px;
+  height: 40px;
   text-align: center;
 }
 
@@ -957,29 +961,26 @@ p.ism-badge a.ism-link:hover {
   height: 20px;
   border-radius: 10px;
   color: #000;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(54, 54, 54, 0.5);
 }
 
 #my-slider .ism-radios li.active label {
-  background-color: white;
+  background-color: black;
 }
 
 #my-slider .ism-radios label:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* SLIDES */
 #my-slider .ism-slide-0 .ism-img {
-  height: 100%;
   background-position: center;
   display: block;
-  left: 15%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 #my-slider .ism-slide-1 .ism-img {
-  height: 100%;
   background-position: center;
   display: block;
   left: 15%;
@@ -987,12 +988,7 @@ p.ism-badge a.ism-link:hover {
      object-fit: cover;
 }
 
-#my-slider .ism-slide-2 .ism-img-frame {
-  width: 100%;
-}
-
 #my-slider .ism-slide-2 .ism-img {
-  height: 100%;
   background-position: center;
   display: block;
   left: 15%;
@@ -1549,7 +1545,7 @@ input:checked + .slider:before {
   text-align: center;
   font-size: 19px;
   font-weight: bold;
-  color: #fecb24;
+  color: #1a1a1a;
 }
 
 .form-mailing {
@@ -1578,15 +1574,15 @@ textarea:focus {
 
 .backdrop-label {
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: #fecb24;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: getColor("rare-color");
   display: inline-block;
-  padding-bottom: 4px;
-  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 .backdrop-label:focus + .contact-icon {

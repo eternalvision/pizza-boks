@@ -36,6 +36,11 @@
     li {
         line-height: 50px;
         text-align: center;
+        padding-right: 5px;
+    }
+    //
+    li:first-child {
+        white-space: nowrap;
     }
     //
     li a {

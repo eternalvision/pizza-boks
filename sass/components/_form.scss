@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 19px;
     font-weight: bold;
-    color: #fecb24;
+    color: #1a1a1a;
 }
 
 .form-mailing {
@@ -33,15 +33,15 @@ textarea:focus {
 //
 .backdrop-label {
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #fecb24;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
     line-height: 14px;
     letter-spacing: 0.01em;
     color: getColor('rare-color');
     display: inline-block;
-    padding-bottom: 4px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .backdrop-label:focus+.contact-icon {
