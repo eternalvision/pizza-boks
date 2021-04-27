@@ -1,14 +1,22 @@
 .header-nav {
-    padding: 18px 0 18px 0;
+    padding: 0;
     // padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.nav-filter {
+    // backdrop-filter: blur(24px);
 }
 
 .sticky {
     position: sticky;
     z-index: 3;
     top: 0;
+    display: block;
+    padding: 0 15px;
     backdrop-filter: blur(24px);
-    padding-left: 305px;
 }
 
 .list-products {
@@ -43,6 +51,7 @@
     li:last-child {
         display: block;
         margin-left: 30.5%;
+        padding-top: 5px;
     }
     //
     li:last-child span {
