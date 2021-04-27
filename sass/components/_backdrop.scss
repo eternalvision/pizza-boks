@@ -25,8 +25,8 @@
     width: 528px;
     height: 400px;
     background: rgba(255, 255, 255, 0.164);
-    filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
-    backdrop-filter: blur(24px);
+    // filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
+    backdrop-filter: blur(30px);
     transition: transform 250ms;
     border-radius: 16px;
 }

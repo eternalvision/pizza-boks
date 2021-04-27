@@ -42,7 +42,7 @@
                     <li>
                         <a data-modal-open class="links-head" href="#">
                             <img src="./img/contacts-png/persona.png" alt="persona-ico" />
-                            <h4>Войти(Модал.)</h4>
+                            <h4>Войти</h4>
                         </a>
                     </li>
                 </ul>
@@ -54,8 +54,21 @@
         <div class="header-nav">
             <nav class="nav-filter">
                 <ul class="list-products">
-                    <li><a href="#"> РОЛЛЫ </a></li>
-                    <li><a href="#"> СЕТЫ </a></li>
+                    <li>
+                        <a class="filtres" href="#"><span
+                                    ><img
+                                        src="./img/filter/filtres.png"
+                                        alt=""
+                                    />
+                                    Фильтры</span
+                                >
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="active-product"> РОЛЛЫ </span></a
+                            >
+                        </li>
+                        <li><a href="#"> СЕТЫ </a></li>
                     <li><a href="#">СУШИ </a></li>
                     <li><a href="#"> Дополнительно </a></li>
                     <li><a href="#"> Акции </a></li>
@@ -210,7 +223,9 @@
         <!--  -->
         <section class="card">
             <div class="container">
-                <h2 class="classic-title firstly">Классические роллы</h2>
+                <h2 id="yak2" class="classic-title firstly">
+                    Классические роллы
+                </h2>
                 <!-- 1 КОЛОНКА  -->
                 <ul class="card-many">
                     <li class="card-info">
@@ -379,7 +394,9 @@
                         </a>
                     </li>
                 </ul>
-                <h2 class="classic-title secondary">Фирменные роллы</h2>
+                <h2 id="yak1" class="classic-title secondary">
+                    Фирменные роллы
+                </h2>
                 <ul class="card-many">
                     <li class="card-info">
                         <!--  -->
@@ -718,13 +735,13 @@
     <div class="container-footer">
         <div class="container-center">
             <!--  -->
-            <section class="menu-section">
+            <section id="menu" class="menu-section">
                 <!--  -->
                 <ul class="menu-list">
                     <li>pdf-меню</li>
-                    <li><a href="#">Фирменные роллы</a></li>
+                    <li><a href="#yak1">Фирменные роллы</a></li>
                     <li><a href="#">Запечённые роллы</a></li>
-                    <li><a href="#">Классические роллык</a></li>
+                    <li><a href="#yak2">Классические роллы</a></li>
                     <li><a href="#">Темпурные роллы</a></li>
                     <li><a href="#">Сеты</a></li>
                     <li><a href="#">Суши</a></li>
@@ -791,6 +808,29 @@
                 </div>
             </section>
         </div>
+        <div class="under-footer">
+            <div class="container-center">
+                <div class="space-center">
+                    <!--  -->
+                    <ul class="torgov-marka">
+                        <li>SushiBox 2013-2021</li>
+                        <li>Все права защищены</li>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <li>
+                            <img src="./img/social-ico/logo2.png" alt="sushi-box-ico" />
+                        </li>
+                    </ul>
+                    <!--  -->
+                    <ul class="torgov-marka">
+                        <li>Правила оплаты товаров</li>
+                        <li>Политика конфиденциальности</li>
+                    </ul>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
@@ -832,6 +872,9 @@
     <!--  -->
     <script src="./js/ism-2.2.min.js"></script>
     <script src="./js/modal.js"></script>
+    <!--  -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./js/yakor-plavn.js"></script>
     <!--  -->
     <!--  -->
     <!-- Корзина -->

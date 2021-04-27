@@ -2,6 +2,8 @@
     padding-top: 40px;
     text-align: center;
     font-size: 19px;
+    font-weight: bold;
+    color: #fecb24;
 }
 
 .form-mailing {
@@ -33,7 +35,7 @@ textarea:focus {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: #000;
+    color: #fecb24;
     line-height: 14px;
     letter-spacing: 0.01em;
     color: getColor('rare-color');
@@ -89,7 +91,7 @@ textarea:focus {
 .contact-icon {
     left: 0;
     margin-left: 52px;
-    margin-top: -29px;
+    margin-top: 10px;
     position: absolute;
     fill: #000;
 }
