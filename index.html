@@ -65,10 +65,12 @@
                             </a>
                     </li>
                     <li>
-                        <a href="#"><span class="active-product"> РОЛЛЫ </span></a
+                        <a href="#"><span class="active-product source source-1">
+                                    РОЛЛЫ
+                                </span></a
                             >
                         </li>
-                        <li><a href="#"> СЕТЫ </a></li>
+                        <li><a class="source source-2" href="#"> СЕТЫ </a></li>
                     <li><a href="#">СУШИ </a></li>
                     <li><a href="#"> Дополнительно </a></li>
                     <li><a href="#"> Акции </a></li>
@@ -78,9 +80,9 @@
                             </a>
                     </li>
                     <li>
-                        <a class="shop-link" href="#">
+                        <a data-modal-basket class="shop-link" href="#">
                             <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
-                            <span> 200 ₽ </span>
+                            <span> Корзина </span>
                         </a>
                     </li>
                 </ul>
@@ -88,7 +90,7 @@
         </div>
     </div>
     <!-- HERO -->
-    <div class="hero-container">
+    <div class="hero-container target target-1">
         <div class="container">
             <div class="ism-slider" id="my-slider">
                 <ol>
@@ -106,8 +108,15 @@
             </div>
         </div>
     </div>
+    <!--  -->
+    <div class="target target-2">
+        <img src="https://placekitten.com/100/150" alt="" />
+        <img src="https://placekitten.com/100/100" alt="" />
+        <img src="https://placekitten.com/100/200" alt="" />
+        <img src="https://placekitten.com/150/100" alt="" />
+    </div>
     <!-- MAIN -->
-    <div class="container-center">
+    <div class="container-center target target-1">
         <div class="filter">
             <h3 class="filter-title">Фильтр по ингридиентам</h3>
             <!--  -->
@@ -257,7 +266,7 @@
                                         <!--  -->
                                         <label class="switch">
                                             <input type="checkbox" />
-                                            <span id="label" class="slider"
+                                            <span class="slider"
                                                 >5 шт<span>10 шт</span></span
                                             >
                                         </label>
@@ -265,9 +274,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 id="button" class="card-pojects">
-                                    200₽
-                                </h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -308,7 +315,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -349,7 +356,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -390,7 +397,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -435,7 +442,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -476,7 +483,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -517,7 +524,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -558,7 +565,7 @@
                             </div>
                             <div class="card-info__title">
                                 <p class="sale">200₽</p>
-                                <h3 class="card-pojects">200₽</h3>
+                                <h5 class="card-pojects zzz">200₽</h5>
                             </div>
                         </a>
                     </li>
@@ -870,13 +877,50 @@
             </form>
         </div>
     </div>
-    <!--  -->
+    <!-- Modal-Basket -->
+    <div class="backdrop-basket is-hidden-basket" data-modal-basket>
+        <div class="modal-basket">
+            <!-- Закрыть -->
+            <button class="button-modal-basket" data-close-basket>
+                    <svg width="18" height="18">
+                        <use href="./img/ico/close.svg#c lose"></use>
+                    </svg>
+                </button>
+            <!-- Форма -->
+
+            <h2 class="form-title">Вход в кабинет</h2>
+            <form name="mailing-form" class="js-speaker-form" autocomplete="on" novalidate>
+                <ul class="form-mailing">
+                    <li class="form-input">
+                        <label class="backdrop-label" for="tel">
+                                Телефон/Почта
+                            </label>
+                        <input class="about-me-back" type="tel" name="tel" />
+                        <img class="contact-icon" src="./img/contacts-png/persona.png" alt="" />
+                    </li>
+                    <li class="form-input">
+                        <label class="backdrop-label" for="mail">
+                                Пароль
+                            </label>
+                        <input class="about-me-back" type="email" name="mail" id="mail-back" />
+                        <img class="contact-icon" src="./img/contacts-png/tel.png" alt="tel" />
+                    </li>
+                </ul>
+
+                <button class="backdrop-button" type="submit">Войти</button>
+                <button class="backdrop-button" type="submit">
+                        Восстановить доступ
+                    </button>
+            </form>
+        </div>
+    </div>
     <script src="./js/ism-2.2.min.js"></script>
     <script src="./js/modal.js"></script>
     <!--  -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="./js/yakor-plavn.js"></script>
     <!--  -->
+    <script src="./js/smena-block.js"></script>
     <!--  -->
     <!-- Корзина -->
 </body>
