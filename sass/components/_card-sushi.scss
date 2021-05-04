@@ -10,7 +10,7 @@
     grid-template-columns: 260px 260px 260px 260px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1076px;
 }
 
 .card-info {
@@ -227,6 +227,18 @@ input:checked+.slider:before {
     color: #1a1a1a;
     padding-bottom: 42px;
     display: block;
+}
+
+.classic-title-login {
+    font-size: 22px;
+    color: #f3f3f3;
+    font-weight: 500;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    white-space: nowrap;
+    padding-top: 20px;
 }
 
 .firstly {

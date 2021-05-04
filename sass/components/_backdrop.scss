@@ -31,6 +31,17 @@
     border-radius: 16px;
 }
 
+@media screen and(max-width: 570px) {
+    .modal {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .classic-title-login {
+        margin-top: 100px;
+    }
+}
+
 .backdrop.is-hidden.modal {
     transform: translate(-50%, -50%) scale(1.1);
 }
