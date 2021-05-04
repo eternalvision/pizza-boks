@@ -5,8 +5,12 @@
 }
 
 .card-many {
-    display: flex;
+    display: grid;
     padding-bottom: 25px;
+    grid-template-columns: 260px 260px 260px 260px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
 
 .card-info {
@@ -222,6 +226,7 @@ input:checked+.slider:before {
     line-height: 85px;
     color: #1a1a1a;
     padding-bottom: 42px;
+    display: block;
 }
 
 .firstly {
@@ -230,4 +235,24 @@ input:checked+.slider:before {
 
 .secondary {
     padding-top: 104px;
+}
+
+@media screen and (max-width: 1070px) {
+    .card-many {
+        grid-template-columns: 260px 260px;
+        li {
+            margin-top: 20px;
+        }
+    }
+    .rolls-center {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+    .classic-title {
+        margin-left: auto;
+        margin-right: auto;
+        width: 490px;
+        white-space: nowrap;
+    }
 }

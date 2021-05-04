@@ -500,10 +500,60 @@ summary {
   }
 }
 
-@media screen and (max-width: 1130px) {
-  .food-list li {
-    width: 100px !important;
-    height: 101px !important;
+@media screen and (max-width: 1070px) {
+  .card-info:not(:last-child) {
+    margin-right: 20px !important;
+  }
+  .card-block {
+    width: 202px;
+  }
+  .secondary {
+    padding-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .time-send {
+    margin-right: 180px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .time-send {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .time-send {
+    display: none;
+  }
+  .list-head__links {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .list-head__links {
+    margin-left: 220px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .list-head__links {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list-head__links {
+    margin-left: 170px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .list-head__links {
+    margin-left: 100px;
   }
 }
 
@@ -1430,10 +1480,14 @@ p.ism-badge a.ism-link:hover {
 }
 
 .card-many {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   padding-bottom: 25px;
+  -ms-grid-columns: 260px 260px 260px 260px;
+      grid-template-columns: 260px 260px 260px 260px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
 
 .card-info {
@@ -1655,6 +1709,7 @@ input:checked + .slider:before {
   line-height: 85px;
   color: #1a1a1a;
   padding-bottom: 42px;
+  display: block;
 }
 
 .firstly {
@@ -1663,6 +1718,27 @@ input:checked + .slider:before {
 
 .secondary {
   padding-top: 104px;
+}
+
+@media screen and (max-width: 1070px) {
+  .card-many {
+    -ms-grid-columns: 260px 260px;
+        grid-template-columns: 260px 260px;
+  }
+  .card-many li {
+    margin-top: 20px;
+  }
+  .rolls-center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+  .classic-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 490px;
+    white-space: nowrap;
+  }
 }
 
 .backdrop {
