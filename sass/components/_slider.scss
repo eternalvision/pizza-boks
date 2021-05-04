@@ -696,3 +696,61 @@ p.ism-badge a.ism-link:hover {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+.img-slide {
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1850px) {
+    .img-slide {
+        max-width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .img-slide {
+        max-width: 1050px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .img-slide {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1565px) {
+    .img-slide {
+        max-width: 950px;
+    }
+}
+
+@media screen and (max-width: 1485px) {
+    .img-slide {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1408px) {
+    .img-slide {
+        max-width: 850px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .img-slide {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .img-slide {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .hero-container {
+        display: none !important;
+    }
+}

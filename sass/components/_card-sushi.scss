@@ -56,7 +56,7 @@
 }
 
 .portfolio-card:hover .ingridients-block {
-    transform: translateY(-56%);
+    transform: translateY(-36%);
 }
 
 .thumb {
@@ -86,7 +86,8 @@
     span {
         color: #121212;
         font-weight: bold;
-        margin-top: 10px;
+        padding-top: 5px;
+        display: block;
     }
 }
 
@@ -94,6 +95,7 @@
 .card-pojects,
 .sale {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card-pojects {
@@ -122,14 +124,11 @@
 
 .ingridients-block {
     width: 100%;
-    transform: translateY(5.4%);
+    height: 100%;
+    transform: translateY(2.4%);
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.6);
     transition: 200ms;
-}
-
-.blur-block {
-    height: 100px;
 }
 
 .vegatariants {
@@ -173,12 +172,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    width: 224px;
-    height: 33px;
+    width: 210px;
+    height: 30px;
     background-color: #f3f3f3;
     -webkit-transition: 0.4s;
     transition: 250ms;
-    margin: 5px 9px;
+    margin: 10px 8px 0px 8px;
+    padding-top: 3px;
     //
     font-family: Segoe UI;
     font-style: normal;
@@ -195,8 +195,8 @@
         position: absolute;
         border-radius: 4px;
         content: '5 шт';
-        height: 26px;
-        width: 112px;
+        height: 25px;
+        width: 101px;
         left: 3px;
         right: 3px;
         bottom: 3px;

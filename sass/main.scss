@@ -39,20 +39,31 @@ img {
     padding-top: 25%;
 }
 
-//
-.active-product {
-    color: #ff7b00;
-    filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
-    padding: 4px 10px;
-    border-radius: 4px;
-    transition: 200ms;
-}
-
-.active-product:hover {
-    color: #1a1a1a;
-}
-
+//!
+// .active-product {
+//     color: #ff7b00;
+//     filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48));
+//     padding: 4px 10px;
+//     border-radius: 4px;
+//     transition: 200ms;
+// }
+// .active-product:hover {
+//     color: #1a1a1a;
+// }
+//!
+// .active {
+//     color: #ff7b00 !important;
+//     filter: drop-shadow(0px 2px 8px rgba(254, 203, 36, 0.48)) !important;
+//     padding: 4px 10px !important;
+//     border-radius: 4px !important;
+//     transition: 200ms !important;
+// }
+// .active:hover {
+//     color: #1a1a1a !important;
+// }
 //
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 1920px) {}
