@@ -1401,8 +1401,6 @@ p.ism-badge a.ism-link:hover {
   font-size: 34px;
   font-family: Segoe UI;
   margin-bottom: 24px;
-  margin-top: 24px;
-  margin-left: 25px;
 }
 
 .filter-list {
@@ -1504,7 +1502,6 @@ p.ism-badge a.ism-link:hover {
       grid-template-columns: 260px 260px 260px 260px;
   margin-left: auto;
   margin-right: auto;
-  width: 1076px;
 }
 
 .card-info {
@@ -2213,7 +2210,7 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 * {
