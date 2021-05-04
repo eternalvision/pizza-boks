@@ -122,3 +122,35 @@
         padding-top: 20px;
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .menu-list,
+    .menu-list-second {
+        display: none;
+    }
+    .menu-section {
+        justify-content: space-between;
+    }
+    .os-links {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .os-links {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .os-links {
+        display: block;
+    }
+    .menu-list-unic {
+        padding: 30px 0 0 0;
+    }
+    .links-adress,
+    .links-ico {
+        display: none;
+    }
+}

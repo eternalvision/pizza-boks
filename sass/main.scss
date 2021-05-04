@@ -23,6 +23,11 @@ body {
 }
 
 //
+body {
+    overflow-x: hidden;
+}
+
+//
 * {
     font-family: Segoe UI, sans-serif;
 }
@@ -65,5 +70,3 @@ img {
 .hidden {
     display: none;
 }
-
-@media screen and (max-width: 1920px) {}
