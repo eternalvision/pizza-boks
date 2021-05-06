@@ -499,16 +499,12 @@ p.ism-badge a.ism-link:hover {
 
 /* SLIDES */
 
-#my-slider .ism-slide-0 .ism-img-frame {
-    // width: 100%;
-    // height: 100%;
-}
-
 #my-slider .ism-slide-0 .ism-img {
     background-position: center;
     display: block;
     // left: 15%;
     object-fit: cover;
+    background-size: cover;
     // -webkit-transform: translateY(-50%);
     // -moz-transform: translateY(-50%);
     // -ms-transform: translateY(-50%);
@@ -522,7 +518,7 @@ p.ism-badge a.ism-link:hover {
     // height: 100%;
     background-position: center;
     display: block;
-    left: 15%;
+    // left: 15%;
     object-fit: cover;
 }
 
