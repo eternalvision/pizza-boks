@@ -62,174 +62,6 @@
     </div>
     <!--  -->
     <!-- STICKY -->
-    <div class="sticky" id="element">
-        <div class="header-nav" id="selectBackground">
-            <nav class="nav-filter">
-                <ul class="list-products">
-                    <li class="drop-menu">
-                        <a class="filtres" href="#filtres"><span
-                                    ><img
-                                        src="./img/filter/filtres.png"
-                                        alt=""
-                                    />
-                                    <span class="filter-none">
-                                        Фильтры</span
-                                    ></span
-                                >
-                            </a>
-                        <div class="filter">
-                            <h3 class="filter-title">
-                                Фильтр по ингридиентам
-                            </h3>
-                            <!--  -->
-                            <ul class="filter-list">
-                                <li>
-                                    <a class="hit-link" href="#"> ХИТ </a>
-                                </li>
-                                <li>
-                                    <a class="new-link" href="#"> NEW </a>
-                                </li>
-                                <!--  -->
-                                <li class="whitey-item">
-                                    <a href="">
-                                        <img src="./img/filter/clever.png" alt="clever" />
-                                        <span>Вега</span>
-                                    </a>
-                                </li>
-                                <li class="whitey-item">
-                                    <a href="">
-                                        <img src="./img/filter/fire.png" alt="fire" />
-                                        <span>Горячие</span>
-                                    </a>
-                                </li>
-                                <li class="whitey-item">
-                                    <a href="">
-                                        <img src="./img/filter/chili.png" alt="chili" />
-                                        <span>Острое</span>
-                                    </a>
-                                </li>
-                                <li class="whitey-item">
-                                    <a href="">
-                                        <img src="./img/filter/discount.png" alt="discount" />
-                                        <span>Скидка</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <!--  -->
-                            <ul class="food-list">
-                                <li>
-                                    <a href="#">
-                                            Лосось
-                                            <img
-                                                src="./img/filter-ingridient/losos.png"
-                                                alt="salmon"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Креветка
-                                            <img
-                                                src="./img/filter-ingridient/crevetca.png"
-                                                alt="shrimp"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Краб
-                                            <img
-                                                src="./img/filter-ingridient/crab.png"
-                                                alt="crab"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Огурец
-                                            <img
-                                                src="./img/filter-ingridient/cucmber.png"
-                                                alt="cucumber"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Сыр
-                                            <img
-                                                src="./img/filter-ingridient/cheese.png"
-                                                alt="cheese"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Авокадо
-                                            <img
-                                                src="./img/filter-ingridient/avocado.png"
-                                                alt="avocado"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Овощи
-                                            <img
-                                                src="./img/filter-ingridient/brocol.png"
-                                                alt="vegetables"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Курица
-                                            <img
-                                                src="./img/filter-ingridient/chicken.png"
-                                                alt="chicken"
-                                        /></a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            Мясо
-                                            <img
-                                                src="./img/filter-ingridient/meat.png"
-                                                alt="meat"
-                                        /></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!--  -->
-                    <li>
-                        <a href="#rolls"><span class="active-product source source-1">
-                                    РОЛЛЫ
-                                </span></a
-                            >
-                        </li>
-                        <!--  -->
-                        <li>
-                            <a class="source source-2" href="#sets"> СЕТЫ </a>
-                    </li>
-                    <!--  -->
-                    <li>
-                        <a class="source source-3" href="#sushi">СУШИ </a>
-                    </li>
-                    <!--  -->
-                    <li>
-                        <a class="source source-4" href="#additionally">
-                                Бонусы
-                            </a>
-                    </li>
-                    <!--  -->
-                    <li>
-                        <a href="https://eternalvision.github.io/pizza-boks/" target="_blank">
-                                ГитХаб
-                            </a>
-                    </li>
-                    <!--  -->
-                    <li class="cart-link__display">
-                        <a data-modal-open-basket class="shop-link" href="#modal">
-                            <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
-                            <span> Корзина </span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
     <div class="typing-center">
         <div class="type-js headline">
             <h1 class="text-js">Упс, здесь пусто..(404)</h1>
@@ -334,6 +166,45 @@
                     <!--  -->
                 </div>
             </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <!-- Закрыть -->
+            <button class="button-modal" data-modal-close>
+                    <svg width="18" height="18">
+                        <use href="./img/ico/close.svg#close"></use>
+                    </svg>
+                </button>
+            <!-- Форма -->
+            <h2 class="classic-title-login">Вход в кабинет</h2>
+            <form name="mailing-form" class="js-speaker-form" autocomplete="on" novalidate>
+                <ul class="form-mailing">
+                    <li class="form-input">
+                        <label class="backdrop-label" for="tel">
+                                Телефон/Почта
+                            </label>
+                        <input class="about-me-back" type="tel" name="tel" id="tel" />
+                        <img class="contact-icon" src="./img/contacts-png/persona.png" alt="" />
+                    </li>
+                    <li class="form-input">
+                        <label class="backdrop-label" for="mail">
+                                Пароль
+                            </label>
+                        <input class="about-me-back" type="email" name="mail" id="mail" />
+                        <img class="contact-icon" src="./img/contacts-png/tel.png" alt="tel" />
+                    </li>
+                </ul>
+                <div class="modal-buttons">
+                    <button class="backdrop-button" type="submit">
+                            Войти
+                        </button>
+                    <button class="backdrop-button" type="submit">
+                            Восстановить доступ
+                        </button>
+                </div>
+            </form>
         </div>
     </div>
     <!--  -->
