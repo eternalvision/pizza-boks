@@ -406,8 +406,9 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider {
     width: 100%;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    // -webkit-border-radius: 20px;
+    // border-radius: 20px;
+    padding: 0 10px;
 }
 
 #my-slider-ism-badge {
@@ -502,38 +503,23 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-0 .ism-img {
     background-position: center;
     display: block;
-    // left: 15%;
     object-fit: cover;
     background-size: cover;
-    // -webkit-transform: translateY(-50%);
-    // -moz-transform: translateY(-50%);
-    // -ms-transform: translateY(-50%);
-    // transform: translateY(-50%);
 }
 
-// #my-slider .ism-slide-1 .ism-img-frame {
-//     width: 100%;
-// }
 #my-slider .ism-slide-1 .ism-img {
     // height: 100%;
     background-position: center;
     display: block;
     // left: 15%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
-// #my-slider .ism-slide-2 .ism-img-frame {
-//     width: 100%;
-// }
 #my-slider .ism-slide-2 .ism-img {
     // height: 100%;
     background-position: center;
     display: block;
     left: 15%;
-    // -webkit-transform: translateY(-50%);
-    // -moz-transform: translateY(-50%);
-    // -ms-transform: translateY(-50%);
-    // transform: translateY(-50%);
     object-fit: cover;
 }
 

@@ -488,9 +488,6 @@ summary {
   .time-send {
     margin-right: 280px;
   }
-  .filter {
-    display: none;
-  }
   .classic-title {
     font-size: 40px !important;
     padding-bottom: 0 !important;
@@ -652,7 +649,7 @@ summary {
 
 .list-products li:last-child {
   display: block;
-  margin-left: 20%;
+  margin-left: 36%;
   padding-top: 5px;
 }
 
@@ -1075,7 +1072,7 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 #my-slider {
   width: 100%;
-  border-radius: 20px;
+  padding: 0 10px;
 }
 
 #my-slider-ism-badge {
@@ -1177,8 +1174,8 @@ p.ism-badge a.ism-link:hover {
 #my-slider .ism-slide-1 .ism-img {
   background-position: center;
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #my-slider .ism-slide-2 .ism-img {
@@ -1408,7 +1405,7 @@ p.ism-badge a.ism-link:hover {
           box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  padding: 32px;
+  padding: 34px;
   margin-top: 18px;
   position: absolute;
   top: 31px;
@@ -1756,7 +1753,7 @@ p.ism-badge a.ism-link:hover {
   -webkit-transition: 0.4s;
   -webkit-transition: 250ms;
   transition: 250ms;
-  margin: 10px 8px 0px 8px;
+  margin: 10px 8px 0px 14px;
   padding-top: 3px;
   font-family: Segoe UI;
   font-style: normal;
@@ -2099,6 +2096,55 @@ textarea:focus {
   cursor: pointer;
 }
 
+.classic-title__bonus {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #fafafa;
+}
+
+.bonus-title {
+  color: #fdfdfd;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bonus-info__list {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #d6d6d6;
+}
+
+.bonus-info__list li {
+  margin-top: 5px;
+}
+
+.bonus-info__list li:nth-child(2) {
+  color: white;
+  font-weight: bold;
+}
+
+.accumilation-system {
+  font-size: 20px;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bonus-ceshbak {
+  margin-top: 15px;
+  color: #d6d6d6;
+  font-size: 18px;
+}
+
+.calirification-paragraph {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #c0c0c0;
+  padding-bottom: 50px;
+}
+
 .menu-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2281,9 +2327,35 @@ textarea:focus {
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#b38838));
-  background: linear-gradient(to top, #000000, #b38838);
   overflow-x: hidden !important;
+  background: linear-gradient(-45deg, #ee7752, #9337bd, #926634, #d2d523);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 * {
