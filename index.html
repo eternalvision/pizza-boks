@@ -44,14 +44,14 @@
                     </li>
                     <!--  -->
                     <li>
-                        <a data-modal-open class="links-head" href="#">
+                        <a data-modal-open class="links-head" href="#modal-profile">
                             <img src="./img/contacts-png/persona.png" alt="persona-ico" />
                             <h4>Войти</h4>
                         </a>
                     </li>
                     <!--  -->
                     <li class="cart-link">
-                        <a class="links-head" href="#">
+                        <a class="links-head" href="#modal" data-open-basket>
                             <img src="./img/contacts-png/cart.png" alt="persona-ico" />
                             <h4>Войти</h4>
                         </a>
@@ -72,7 +72,9 @@
                                         src="./img/filter/filtres.png"
                                         alt=""
                                     />
-                                    Фильтры</span
+                                    <span class="filter-none">
+                                        Фильтры</span
+                                    ></span
                                 >
                             </a>
                         <div class="filter">
@@ -219,7 +221,7 @@
                     </li>
                     <!--  -->
                     <li class="cart-link__display">
-                        <a data-modal-basket class="shop-link" href="#">
+                        <a data-modal-open-basket class="shop-link" href="#modal">
                             <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
                             <span> Корзина </span>
                         </a>
@@ -1617,42 +1619,55 @@
     <div class="backdrop-basket is-hidden-basket" data-modal-basket>
         <div class="modal-basket">
             <!-- Закрыть -->
-            <button class="button-modal-basket" data-close-basket>
+            <button class="button-modal" data-modal-close-basket>
                     <svg width="18" height="18">
-                        <use href="./img/ico/close.svg#c lose"></use>
+                        <use href="./img/ico/close.svg#close"></use>
                     </svg>
                 </button>
             <!-- Форма -->
+            <h2 class="classic-title-login">Сет для друзей</h2>
 
-            <h2 class="form-title">Вход в кабинет</h2>
-            <form name="mailing-form" class="js-speaker-form" autocomplete="on" novalidate>
-                <ul class="form-mailing">
-                    <li class="form-input">
-                        <label class="backdrop-label" for="tel">
-                                Телефон/Почта
-                            </label>
-                        <input class="about-me-back" type="tel" name="tel" />
-                        <img class="contact-icon" src="./img/contacts-png/persona.png" alt="" />
-                    </li>
-                    <li class="form-input">
-                        <label class="backdrop-label" for="mail">
-                                Пароль
-                            </label>
-                        <input class="about-me-back" type="email" name="mail" id="mail-back" />
-                        <img class="contact-icon" src="./img/contacts-png/tel.png" alt="tel" />
-                    </li>
-                </ul>
+            <img class="set-shop" src="./img/sets/set2.jpg" alt="sets" width="300" />
+            <p class="info-basket">
+                Калифорния краб - 5 шт, Цезарь - 5 шт, Анапа - 10 шт, Гункан спайси лосось в темпуре - 2 шт
+            </p>
 
-                <button class="backdrop-button" type="submit">Войти</button>
+            <div class="modal-buttons">
                 <button class="backdrop-button" type="submit">
-                        Восстановить доступ
+                        Оплатить
                     </button>
-            </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Basket Second -->
+    <div class="backdrop-basket-second is-basket" data-basket>
+        <div class="modal-basket-second">
+            <!-- Закрыть -->
+            <button class="button-modal" data-close-basket>
+                    <svg width="18" height="18">
+                        <use href="./img/ico/close.svg#close"></use>
+                    </svg>
+                </button>
+            <!-- Форма -->
+            <h2 class="classic-title-login">Сет для друзей</h2>
+
+            <img class="set-shop" src="./img/sets/set2.jpg" alt="sets" width="300" />
+            <p class="info-basket">
+                Калифорния краб - 5 шт, Цезарь - 5 шт, Анапа - 10 шт, Гункан спайси лосось в темпуре - 2 шт
+            </p>
+
+            <div class="modal-buttons">
+                <button class="backdrop-button" type="submit">
+                        Оплатить
+                    </button>
+            </div>
         </div>
     </div>
     <!--  -->
     <script src="./js/ism-2.2.min.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/modal2.js"></script>
+    <script src="./js/modal3.js"></script>
     <!--  -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="./js/yakor-plavn.js"></script>

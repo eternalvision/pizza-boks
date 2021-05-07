@@ -120,7 +120,7 @@
         cursor: pointer;
     }
     li:last-child {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
     li a {
         color: #1a1a1a;

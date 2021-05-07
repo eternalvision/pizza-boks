@@ -83,25 +83,25 @@
 
 @media screen and (max-width: 1370px) {
     .list-products li:last-child {
-        margin-left: 20% !important;
+        margin-left: 30% !important;
     }
 }
 
 @media screen and (max-width: 1250px) {
     .list-products li:last-child {
-        margin-left: 15% !important;
+        margin-left: 29% !important;
     }
 }
 
 @media screen and (max-width: 1180px) {
     .list-products li:last-child {
-        margin-left: 10% !important;
+        margin-left: 28% !important;
     }
 }
 
 @media screen and (max-width: 1140px) {
     .list-products li:last-child {
-        margin-left: 5% !important;
+        margin-left: 23% !important;
     }
     .time-send {
         margin-right: 100px;
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 1090px) {
     .list-products li:last-child {
-        margin-left: 1% !important;
+        margin-left: 20% !important;
     }
     .header-nav {
         margin-left: 120px !important;
@@ -152,10 +152,6 @@
 }
 
 @media screen and (max-width: 1073px) {
-    // .food-list li {
-    //     width: 90px !important;
-    //     height: 91px !important;
-    // }
     .food-list li img {
         padding: 15px 0 0 25px !important;
     }
@@ -168,9 +164,6 @@
     .time-send {
         margin-right: 280px;
     }
-    // .filter {
-    //     display: none;
-    // }
     .classic-title {
         font-size: 40px !important;
         padding-bottom: 0 !important;
@@ -202,10 +195,19 @@
     .time-send {
         margin-right: 100px;
     }
+    .list-products li:last-child {
+        margin-left: 10% !important;
+    }
 }
 
 .cart-link {
     display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .list-products li:last-child {
+        margin-left: 5% !important;
+    }
 }
 
 @media screen and (max-width: 735px) {
@@ -220,6 +222,9 @@
     }
     .cart-link__display {
         display: none !important;
+    }
+    .list-products li:last-child {
+        margin-left: 5% !important;
     }
 }
 
@@ -248,19 +253,22 @@
 }
 
 @media screen and (max-width: 570px) {
+    body {
+        background: linear-gradient( -45deg, #ee7752, #9337bd, #926634, #d2d523) !important;
+    }
     .header-nav {
-        margin-left: 10px !important;
+        margin-left: 50px !important;
+    }
+    .filter-none {
+        display: none !important;
     }
 }
 
 @media screen and (max-width: 545px) {
-    .header-nav {
-        margin-left: 0px !important;
-    }
     .card-info:not(:last-child) {
         margin-right: 5px !important;
     }
     .list-head__links {
-        margin-left: 90px;
+        margin-left: 80px;
     }
 }
