@@ -2030,6 +2030,8 @@ textarea:focus {
   position: relative;
   padding: 11px 42px;
   width: 100%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .about-me-back:focus + .contact-icon {
@@ -2062,10 +2064,19 @@ textarea:focus {
 
 .contact-icon {
   left: 0;
-  margin-left: 52px;
+  margin-left: 50px;
   margin-top: 10px;
   position: absolute;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   fill: #000;
+}
+
+@media screen and (max-width: 563px) {
+  .contact-icon {
+    margin-left: 51px;
+    margin-top: -30px;
+  }
 }
 
 .backdrop-button {
