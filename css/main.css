@@ -2493,6 +2493,12 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
+.classic-title,
+.classic-title-login,
+.classic-title__bonus {
+  font-family: Segoe UI, sans-serif !important;
+}
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
