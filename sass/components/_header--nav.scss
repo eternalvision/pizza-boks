@@ -19,20 +19,6 @@
     backdrop-filter: blur(24px);
 }
 
-@media screen and (max-width: 880px) {
-    .sticky {
-        overflow-x: scroll;
-    }
-    #element::-webkit-scrollbar {
-        width: 7px;
-        background-color: #b9b9b900;
-    }
-    #element::-webkit-scrollbar-thumb {
-        background-color: #fecb2479;
-        backdrop-filter: blur(24px);
-    }
-}
-
 .filtres {
     background-color: #b9b9b9a6;
     border-radius: 4px;
@@ -90,6 +76,7 @@
         margin-left: 36%;
         padding-top: 5px;
     }
+    //
     li a:last-child {
         transition: 200ms;
     }

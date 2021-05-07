@@ -204,35 +204,63 @@
     }
 }
 
+.cart-link {
+    display: none;
+}
+
 @media screen and (max-width: 735px) {
     .time-send {
         display: none;
     }
     .list-head__links {
-        margin-left: 250px;
-    }
-}
-
-@media screen and (max-width: 675px) {
-    .list-head__links {
         margin-left: 220px;
     }
+    .cart-link {
+        display: block;
+    }
+    .cart-link__display {
+        display: none !important;
+    }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
     .list-head__links {
         margin-left: 200px;
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 651px) {
+    .list-head__links {
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width: 624px) {
     .list-head__links {
         margin-left: 170px;
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 621px) {
     .list-head__links {
         margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .header-nav {
+        margin-left: 10px !important;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .header-nav {
+        margin-left: 0px !important;
+    }
+    .card-info:not(:last-child) {
+        margin-right: 5px !important;
+    }
+    .list-head__links {
+        margin-left: 90px;
     }
 }
