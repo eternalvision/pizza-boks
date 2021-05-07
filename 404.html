@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!--  -->
     <!-- HEADER -->
     <div class="container-center">
         <header>
@@ -26,22 +27,32 @@
                     </h4>
                 </div>
                 <ul class="list-head__links">
+                    <!--  -->
                     <li>
-                        <a class="links-head" href="https://goo.gl/maps/A1AqmDtuKX4juVYm9" target="_blank">
+                        <a class="links-head" href="https://goo.gl/maps/LfbPsvq7xS9gBaHy7" target="_blank">
                             <img src="./img/contacts-png/position.png" alt="position-ico" />
 
                             <h4>Суши Бокс</h4>
                         </a>
                     </li>
+                    <!--  -->
                     <li>
                         <a class="links-head" href="tel:8 (8422) 21-73-73">
                             <img src="./img/contacts-png/tel.png" alt="telephon-ico" />
                             <h4>8 (8422) 21-73-73</h4>
                         </a>
                     </li>
+                    <!--  -->
                     <li>
-                        <a data-modal-open class="links-head" href="#">
+                        <a data-modal-open class="links-head" href="#modal-profile">
                             <img src="./img/contacts-png/persona.png" alt="persona-ico" />
+                            <h4>Войти</h4>
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="cart-link">
+                        <a class="links-head" href="#modal" data-open-basket>
+                            <img src="./img/contacts-png/cart.png" alt="persona-ico" />
                             <h4>Войти</h4>
                         </a>
                     </li>
@@ -49,31 +60,295 @@
             </div>
         </header>
     </div>
+    <!--  -->
     <!-- STICKY -->
-    <div class="sticky">
-        <div class="header-nav">
-            <nav>
+    <div class="sticky" id="element">
+        <div class="header-nav" id="selectBackground">
+            <nav class="nav-filter">
                 <ul class="list-products">
-                    <li><a href="#"> РОЛЛЫ </a></li>
-                    <li><a href="#"> СЕТЫ </a></li>
-                    <li><a href="#">СУШИ </a></li>
-                    <li><a href="#"> Дополнительно </a></li>
-                    <li><a href="#"> Акции </a></li>
-                    <li><a href="#"> Контакты </a></li>
+                    <li class="drop-menu">
+                        <a class="filtres" href="#filtres"><span
+                                    ><img
+                                        src="./img/filter/filtres.png"
+                                        alt=""
+                                    />
+                                    <span class="filter-none">
+                                        Фильтры</span
+                                    ></span
+                                >
+                            </a>
+                        <div class="filter">
+                            <h3 class="filter-title">
+                                Фильтр по ингридиентам
+                            </h3>
+                            <!--  -->
+                            <ul class="filter-list">
+                                <li>
+                                    <a class="hit-link" href="#"> ХИТ </a>
+                                </li>
+                                <li>
+                                    <a class="new-link" href="#"> NEW </a>
+                                </li>
+                                <!--  -->
+                                <li class="whitey-item">
+                                    <a href="">
+                                        <img src="./img/filter/clever.png" alt="clever" />
+                                        <span>Вега</span>
+                                    </a>
+                                </li>
+                                <li class="whitey-item">
+                                    <a href="">
+                                        <img src="./img/filter/fire.png" alt="fire" />
+                                        <span>Горячие</span>
+                                    </a>
+                                </li>
+                                <li class="whitey-item">
+                                    <a href="">
+                                        <img src="./img/filter/chili.png" alt="chili" />
+                                        <span>Острое</span>
+                                    </a>
+                                </li>
+                                <li class="whitey-item">
+                                    <a href="">
+                                        <img src="./img/filter/discount.png" alt="discount" />
+                                        <span>Скидка</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--  -->
+                            <ul class="food-list">
+                                <li>
+                                    <a href="#">
+                                            Лосось
+                                            <img
+                                                src="./img/filter-ingridient/losos.png"
+                                                alt="salmon"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Креветка
+                                            <img
+                                                src="./img/filter-ingridient/crevetca.png"
+                                                alt="shrimp"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Краб
+                                            <img
+                                                src="./img/filter-ingridient/crab.png"
+                                                alt="crab"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Огурец
+                                            <img
+                                                src="./img/filter-ingridient/cucmber.png"
+                                                alt="cucumber"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Сыр
+                                            <img
+                                                src="./img/filter-ingridient/cheese.png"
+                                                alt="cheese"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Авокадо
+                                            <img
+                                                src="./img/filter-ingridient/avocado.png"
+                                                alt="avocado"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Овощи
+                                            <img
+                                                src="./img/filter-ingridient/brocol.png"
+                                                alt="vegetables"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Курица
+                                            <img
+                                                src="./img/filter-ingridient/chicken.png"
+                                                alt="chicken"
+                                        /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                            Мясо
+                                            <img
+                                                src="./img/filter-ingridient/meat.png"
+                                                alt="meat"
+                                        /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!--  -->
                     <li>
-                        <a class="shop-link" href="#">
+                        <a href="#rolls"><span class="active-product source source-1">
+                                    РОЛЛЫ
+                                </span></a
+                            >
+                        </li>
+                        <!--  -->
+                        <li>
+                            <a class="source source-2" href="#sets"> СЕТЫ </a>
+                    </li>
+                    <!--  -->
+                    <li>
+                        <a class="source source-3" href="#sushi">СУШИ </a>
+                    </li>
+                    <!--  -->
+                    <li>
+                        <a class="source source-4" href="#additionally">
+                                Бонусы
+                            </a>
+                    </li>
+                    <!--  -->
+                    <li>
+                        <a href="https://eternalvision.github.io/pizza-boks/" target="_blank">
+                                ГитХаб
+                            </a>
+                    </li>
+                    <!--  -->
+                    <li class="cart-link__display">
+                        <a data-modal-open-basket class="shop-link" href="#modal">
                             <img src="./img/contacts-png/cart.png" alt="cart" width="20" height="16" />
-                            <span> 200 ₽ </span>
+                            <span> Корзина </span>
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
-    <div class="container-center">
-        <h1 class="bug-title">Упс, здесь пусто..(404)</h1>
+    <div class="typing-center">
+        <div class="type-js headline">
+            <h1 class="text-js">Упс, здесь пусто..(404)</h1>
+        </div>
     </div>
     <!-- HERO -->
+    <div class="container-footer bottom-footer">
+        <div class="container-center">
+            <!--  -->
+            <section id="menu" class="menu-section">
+                <!--  -->
+                <ul class="menu-list">
+                    <li>pdf-меню</li>
+                    <li><a href="#yak1">Фирменные роллы</a></li>
+                    <li><a href="#">Запечённые роллы</a></li>
+                    <li><a href="#yak2">Классические роллы</a></li>
+                    <li><a href="#">Темпурные роллы</a></li>
+                    <li><a href="#">Сеты</a></li>
+                    <li><a href="#">Суши</a></li>
+                </ul>
+                <!--  -->
+                <ul class="menu-list-second">
+                    <li><a href="#">Воки</a></li>
+                    <li><a href="#">Тяхан</a></li>
+                    <li><a href="#">Супы</a></li>
+                    <li><a href="#">Салаты</a></li>
+                    <li><a href="#">Соусы</a></li>
+                    <li><a href="#">Напитки</a></li>
+                </ul>
+                <!--  -->
+                <ul class="menu-list-unic">
+                    <li><a href="#">Акции и скидки</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Бонусная система</a></li>
+                </ul>
+                <!--  -->
+                <ul class="menu-list-unic">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <!--  -->
+                <div>
+                    <!--  -->
+                    <ul class="links-ico">
+                        <li>
+                            <a href="#"><img src="./img/social-ico/Instagram.png" alt="instagram-ico" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/social-ico/VK.png" alt="vkontakte-ico" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/social-ico/OK.png" alt="odnoklassniki-ico" /></a>
+                        </li>
+                    </ul>
+                    <!--  -->
+                    <ul class="links-adress">
+                        <li><a href="#">sushibox.org</a></li>
+                        <li>
+                            <a href="tel:+7(8442)27-73-73">+7(8442)27-73-73</a
+                                >
+                            </li>
+                        </ul>
+                        <!--  -->
+                        <ul class="os-links">
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="./img/social-ico/appstore.png"
+                                        alt="appstore-ico"
+                                    />
+                                </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/social-ico/googleplay.png" alt="googleplay-ico" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="under-footer">
+            <div class="container-center">
+                <div class="space-center">
+                    <!--  -->
+                    <ul class="torgov-marka">
+                        <li>SushiBox 2013-2021</li>
+                        <li>Все права защищены</li>
+                    </ul>
+                    <!--  -->
+                    <ul>
+                        <li>
+                            <img src="./img/social-ico/logo2.png" alt="sushi-box-ico" />
+                        </li>
+                    </ul>
+                    <!--  -->
+                    <ul class="torgov-marka">
+                        <li>Правила оплаты товаров</li>
+                        <li>Политика конфиденциальности</li>
+                    </ul>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <script src="./js/ism-2.2.min.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/modal2.js"></script>
+    <script src="./js/modal3.js"></script>
+    <!--  -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./js/yakor-plavn.js"></script>
+    <!--  -->
+    <script src="./js/smena-block.js"></script>
+    <script src="./js/smena-block-2.js"></script>
+    <!--  -->
+    <script src="./js/avto-type.js"></script>
 </body>
 
 </html>

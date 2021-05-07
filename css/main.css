@@ -577,14 +577,17 @@ summary {
 }
 
 @media screen and (max-width: 570px) {
-  body {
-    background: linear-gradient(-45deg, #ee7752, #9337bd, #926634, #d2d523) !important;
-  }
   .header-nav {
     margin-left: 50px !important;
   }
   .filter-none {
     display: none !important;
+  }
+  .typing-center {
+    width: 100% !important;
+  }
+  .headline {
+    font-size: 22px !important;
   }
 }
 
@@ -2539,5 +2542,66 @@ img {
 
 .hidden {
   display: none;
+}
+
+.bottom-footer {
+  margin-top: 573px;
+}
+
+.text-js {
+  opacity: 0;
+  color: black;
+  display: block;
+  font-weight: 300;
+}
+
+.headline {
+  margin: 20px;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.headline h1 {
+  letter-spacing: 1.6px;
+  font-weight: 300;
+}
+
+.cursor {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: black;
+  z-index: 1;
+  -webkit-animation: flash 0.5s none infinite alternate;
+          animation: flash 0.5s none infinite alternate;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.typing-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 57%;
 }
 /*# sourceMappingURL=main.css.map */

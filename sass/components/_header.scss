@@ -253,14 +253,17 @@
 }
 
 @media screen and (max-width: 570px) {
-    body {
-        background: linear-gradient( -45deg, #ee7752, #9337bd, #926634, #d2d523) !important;
-    }
     .header-nav {
         margin-left: 50px !important;
     }
     .filter-none {
         display: none !important;
+    }
+    .typing-center {
+        width: 100% !important;
+    }
+    .headline {
+        font-size: 22px !important;
     }
 }
 
